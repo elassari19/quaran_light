@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+  .react-datapicker {
+    @apply flex-1 outline-none w-[17rem]
+  }
+
+  .react-datepicker__input-container {
+    @apply w-[20rem]
+  }
+}

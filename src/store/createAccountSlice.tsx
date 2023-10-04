@@ -7,7 +7,8 @@ export const initialRootState = {
   email: "",
   phone: "",
   birthdate: "",
-  gender: "male"
+  gender: "male",
+  language: "English"
 }
 
 export const rootSlice = createSlice({

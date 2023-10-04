@@ -16,11 +16,11 @@ const index = ({ children, className }: Props) => {
 
   return (
     <div
-      className={cn("flex flex-col p-4 sm:px-24 md:px-32 lg:px-[15%] text-xs")}
+      className={cn("flex flex-col min-h-[100vh] p-4 sm:px-24 md:px-32 lg:px-[15%] text-md")}
     >
       <ReduxProvider store={store}>
         <Header location={location.pathname} />
-        <div className={cn(className)}>
+        <div className={cn("", className)}>
           {children}
         </div>
       </ReduxProvider>
